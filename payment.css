@@ -1,0 +1,225 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    height: 100%;
+    background-color: rgb(248, 245, 245);
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(36, 33, 33);
+    font-size: 30px;
+    padding-left: 9%;
+    padding-top: 4%;
+}
+
+.pay_line{
+    padding-left: 80%;
+    width: 50px;
+    height: 2px;
+    background-color: rgb(97, 88, 88);
+    border-radius: 1.1rem;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.circ_icon{
+    background-image: url('gpay.png');
+    border-radius: 50%;
+    height: 80%;
+
+}
+
+.form_pay{
+
+    height: 10%;
+
+
+}
+
+.flex-parent-element {
+  display: flex;
+  width: 50%;
+}
+
+.flex-child-element {
+  flex: 0.2;
+  font-size: 69%;
+  font-family: 'Poppins', serif ;
+ 
+  margin: 10px;
+}
+
+.flex-child-element:first-child {
+  margin-right: 1px;
+}
+h2{
+  font-size: 69%;
+  font-family: 'Poppins', serif ;
+}
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.form-control {
+  font-family: system-ui, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.1;
+  display: grid;
+  grid-template-columns: 1em auto;
+  gap: 0.5em;
+}
+.form-control2{
+    font-family: system-ui, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.1;
+  display: grid;
+  grid-template-columns: 1em auto;
+  gap: 0.5em;
+}
+.proc_button {
+  border: 0;
+  text-align: center;
+  display: inline-block;
+  padding: 14px;
+  width: 150px;
+  margin: 7px;
+  color: #ffffff;
+  background-color: #b46f6f;
+  border-radius: 8px;
+  font-family: "proxima-nova-soft", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  transition: box-shadow 200ms ease-out;
+}
+
+
+.proc_button:hover{
+  color: rgb(19, 2, 2);
+}
+
+.card-bounding {
+
+  margin: 0 auto;
+
+  transform: translateY(-50%);
+  padding: 30px;
+  border: 1px solid #3e73ea;
+  border-radius: 6px;
+  font-family: 'Roboto';
+  background: #ffffff;
+}
+.card-bounding aside {
+  font-size: 24px;
+  padding-bottom: 8px;
+}
+.card-container {
+  width: 100%;
+ 
+  position: relative;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  margin: 0 auto 30px auto;
+}
+.card-container input {
+  width: 100%;
+  letter-spacing: 1px;
+  font-size: 30px;
+  padding: 15px 15px 15px 25px;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+.card-type {
+  width: 80px;
+  height: 56px;
+  background: url("images/cards.png");
+  background-position: 0 -291px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 3px;
+  left: 4px;
+}
+.card-type.mastercard { background-position: 0 0; }
+.card-type.visa { background-position: 0 -115px; }
+.card-type.amex { background-position: 0 -57px; }
+.card-type.discover { background-position: 0 -174px; }
+.card-valid {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  line-height: 60px;
+  font-size: 40px;
+  font-family: 'icons';
+  color: #ccc;
+}
+.card-valid.active { color: #42ca7c; }
+.card-details {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 30px;
+  transition: 300ms ease;
+}
+.card-details input {
+  font-size: 30px;
+  padding: 15px;
+  box-sizing: border-box;
+  width: 100%;
+}
+.card-details input.error {
+  border: 1px solid #c2313c;
+  box-shadow: 0 4px 8px 0 rgba(238,76,87,0.3);
+  outline: none;
+}
+.card-details .expiration {
+  width: 50%;
+  float: left;
+  padding-right: 5%;
+}
+.card-details .cvv {
+  width: 45%;
+  float: left;
+}
+
+.blur   {
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+}
+#overlay    {
+  position: fixed;
+  display: none;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  background: rgba(255,255,255,.8);
+  z-index: 999;
+}
+
+

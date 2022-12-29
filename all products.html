@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products </title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,200;1,300;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+
+  
+    <link rel='https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,200;1,300;1,700&display=swap'>
+
+
+
+
+
+<style>
+
+
+ /* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #f5f7f8;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #ca9f9f51;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
+
+
+
+</head>
+
+<body>
+
+   
+    <!-- HEADER SECTION  -->
+
+    <div class="header">
+
+        <div class="container">
+
+            <div class="navbar">
+
+                <div class="logo">
+                <a href="index.html"><img src="images/logo.png" width="130px"/></a>
+                </div>
+
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="all products.html"><img src="images/catted.png" alt="" width="30" height="30"></a></li> 
+                    <li><a href="blog.html"><img src="images/bloggie.png" alt="" width="30" height="30"></a></li>
+                    <li><a href="newsltr.html"><img src="images/nws.png" alt="" width="30" height="30"></a></li>  
+                    <li><a href="login.html"><img src="images/carto.png" alt="" width="30" height="30"></a></li>
+                    <li><a href="index.html"><img src="images/home.png" alt="" width="30" height="30"></a></li>
+                    <li><a href="login.html"><img src="images/user.png" alt="" width="30" height="30"></a></li>
+                    
+                </ul>
+            </nav>
+                   <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+
+            <br>
+            
+        <form class="example" action="action_page.php">
+            <input type="text" placeholder="Find your pair..." name="search">
+            <button type="submit"><img src="images/search.png" alt="" width="15" height="15"></button>
+          </form>
+     
+            
+
+           </div>
+        </div>
+    </div>
+
+    <!-- PRODUCTS  -->
+
+
+    
+  <div class="small-container">
+
+    
+    
+    <div class="row row-2">
+        <h2>All Products</h2>
+<br><br>
+
+        <select>
+            <option>Default</option>
+            <option>Sort By Size</option>
+            <option>Sort By Price</option>
+            <option>Sort By Colour</option>
+            <option>Sort By Rating</option>
+            <option>Sort By Category</option>
+            <option>Sort By Popularity</option>
+        </select>
+    </div>
+
+    
+
+      
+    <div class="row">
+
+        <div class="col-4">
+            <img src="images/mcsn-1.jpg">
+            <h4>Traiford Galaxy 180 Mega-White pop Sneakers for Men</h4>
+            <div class="rating">
+                <h5>&#9733; &#9733; &#9733; &#9733; &#9734;  <span style="color:rgb(101, 99, 99)">&#65086; 4.1(17)</span></h5>
+            </div>
+            <span>₹3,299 <strike>₹5,999</strike> (45% off)</span>
+        </div>
+
+
+        <div class="col-4">
+            <img src="images/mcsn-2.jpg">
+            <h4>Rx³ Twill Air Mesh c5s Sneaker Shoes for Men</h4>
+            <div class="rating">
+                <h5>&#9733; &#9733; &#9733; &#9733; &#9734;  <span style="color:rgb(101, 99, 99)">&#65086; 4.5(20)</span></h5>
+            </div>
+            <span>₹2,500 <strike>₹4,999</strike> (50% off)</span>
+        </div>
+
+
+        <div class="col-4">
+            <img src="images/fcg-2.jpg">
+            <h4>Woodland Kragdle 210-sw Retro Grey Running Shoes for Women</h4>
+            <div class="rating">
+                <h5>&#9733; &#9733; &#9733; &#9733; &#9734;  <span style="color:rgb(101, 99, 99)">&#65086; 4.0(16)</span></h5>
+            </div>
+            <span>₹1,189 <strike>₹2,299</strike> (48% off)</span>
+        </div>
+
+        <div class="col-4">
+            <img src="images/fch-2.jpg">
+            <h4>Grace Taylor veil Lc33 Rustic Red High Heels</h4>
+            <div class="rating">
+                <h5>&#9733; &#9733; &#9733; &#9733; &#9734;  <span style="color:rgb(101, 99, 99)">&#65086; 4.0(3)</span></h5>
+            </div>
+            <span>₹849 <strike>₹1,499</strike> (43% off)</span>>
+        </div>
+
+
+
+     </div>
+
+
+     <div class="row">
+
+        <div class="col-4">
+            <img src="images/mc-bs-2.jpg">
+            <h4>QuantumGO c60-2w Air Flex Sneakers</h4>
+            <div class="rating">
+                <h5>&#9733; &#9733; &#9733; &#9733; &#9734;  <span style="color:rgb(101, 99, 99)">&#65086; 4.5(16)</span></h5>
+            </div>
+            <span>₹8,666 <strike> ₹13,999</strike> (38% off)</span>
+        </div>
+
+        <div class="col-4">
+            <img src="images/fcbs-4.jpg">
+            <h4>Royal Black Tan-Lee Formal Shoes for Men</h4>
+            <div class="rating">
+                <h5>&#9733; &#9733; &#9733; &#9733; &#9734;  <span style="color:rgb(101, 99, 99)">&#65086; 4.2(23)</span></h5>
+            </div>
+            <span>₹3,149 <strike> ₹4,999</strike> (37% off)</span>
+        </div>
+
+
+        <div class="col-4">
+            <img src="images/fcs-3.jpg">
+            <h4> Zoveasorux 98 Max-Ultra Drop Sneakers</h4>
+            <div class="rating">
+                <h5>&#9733; &#9733; &#9733; &#9733; &#9734;  <span style="color:rgb(101, 99, 99)">&#65086; 4.3(14)</span></h5>
+            </div>
+            <span>₹8,399 <strike> ₹13,999 </strike> (40% off)</span>
+        </div>
+
+
+        
+        <div class="col-4">
+            <img src="images/mcf-4.jpg">
+            <h4>Cliff Fjord Faux Leather Brown Formal Shoes</h4>
+            <div class="rating">
+                <h5>&#9733; &#9733; &#9733; &#9733; &#9734;  <span style="color:rgb(101, 99, 99)">&#65086; 4.1(17)</span></h5>
+            </div>
+            <span>₹2,639 <strike>₹3,999</strike> (34% off)</span>
+        </div>
+       
+
+
+    </div>
+
+
+    <div class="row">
+
+        <div class="col-4">
+            <a href="product-details.html"><img src="images/mcf-1.jpg"></a>
+            
+              
+            <h4>Boss Rig Royal Black Rc2314 Formal Shoes for Men</h4>
+            <div class="rating">
+                <h5>&#9733; &#9733; &#9733; &#9733; &#9734;  <span style="color:rgb(101, 99, 99)">&#65086; 4.0(11)</span></h5>
+            </div>
+            <span>₹1,920 <strike>₹2,690</strike> (29% off)</span>
+        </div>
+
+
+        <div class="col-4">
+            <img src="images/mcf-2.jpg">
+            <h4>Vellinto Taylor Fit Lc33 Rust Brown Formal Shoes</h4>
+            <div class="rating">
+                <h5>&#9733; &#9733; &#9733; &#9733; &#9734;  <span style="color:rgb(101, 99, 99)">&#65086; 4.0(13)</span></h5>
+            </div>
+            <span>₹2,361 <strike>₹3,499</strike> (33% off)</span>>
+        </div>
+
+        
+    
+        <div class="col-4">
+            <img src="images/fcg-3.jpg">
+            <h4>HCarbon Tame Denart Pop Blue Pink Gym Fit Shoes</h4>
+            <div class="rating">
+                <h5>&#9733; &#9733; &#9733; &#9733; &#9734;  <span style="color:rgb(101, 99, 99)">&#65086; 4.2(21)</span></h5>
+            </div>
+            <span>₹2,199  <strike>₹3,999</strike> (45% off)</span>
+        </div>
+    
+    
+        <div class="col-4">
+            <img src="images/fcg-4.jpg">
+            <h4>White Maze Feather voox Running Shoes Gym fit</h4>
+            <div class="rating">
+                <h5>&#9733; &#9733; &#9733; &#9733; &#9733;  <span style="color:rgb(101, 99, 99)">&#65086; 4.3(18)</span></h5>
+            </div>
+            <span>₹2,639 <strike>₹3,999</strike> (34% off)</span>
+        </div>
+</div>
+
+
+
+<br>
+<br>
+
+
+
+    <div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>5</span>  
+        <span>6</span>
+        <span>7</span>
+        <span>&#8594;</span>
+    </div>
+</div>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+   
+   <!-- FOOTER -->
+
+   <div class="footer">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="footer-col-1">
+                <h3>Download our App Here</h3>
+                <p>Available for both Android and iOS.</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+
+
+            <div class="footer-col-2">
+                <br>
+                <img src="images/logo.png">
+                <p>Explore our collections &  <br>
+                    find your Solemate! 
+                   </p>
+            </div>
+
+
+            <div class="footer-col-3"><br>
+                <h3>Our Links</h3>
+                <ul>
+                    <a href=""><li>Refunds/Cancellation</li></a>
+                    <a href=""><li>Coupons</li></a>
+                    <a href=""><li>Return Policy</li></a>
+                    <a href=""><li>FAQ</li></a>
+                    <a href=""><li>Privacy Policy</li></a>
+                    <a href=""><li>Join Affiliates</li></a>
+                </ul>
+            </div>
+
+
+            <div class="footer-col-4">
+                <h3>Follow us </h3>   
+                <ul>
+                    <a href="https://www.facebook.com/"><li>Facebook</li></a>
+                    <a href="https://twitter.com/"><li>Twitter</li></a>
+                    <a href="https://www.youtube.com/"><li>Youtube</li></a>
+                    <a href="https://www.instagram.com/"><li>Instagram</li></a>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+
+         <br>
+         <br>
+        </div>
+        <hr>
+        <br>
+        <br>
+        <p class="copyright">&#169;  Copyrights 2022 @ VaultX </p>
+        </div>
+        <br>
+        <br>
+</div>
+
+    <script src="index.js"></script>
+</body>
+</html>

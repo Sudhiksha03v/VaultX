@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cart and Orders</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,200;1,300;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+
+    <link rel='https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,200;1,300;1,700&display=swap'>
+
+</head>
+
+<body>
+         
+    <!-- HEADER SECTION  -->
+
+    <div class="header">
+
+        <div class="container">
+
+            <div class="navbar">
+
+                <div class="logo">
+                <a href="index.html"><img src="images/logo.png" width="130px"/></a>
+                </div>
+
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="all products.html"><img src="images/catted.png" alt="" width="30" height="30"></a></li> 
+                    <li><a href="blog.html"><img src="images/bloggie.png" alt="" width="30" height="30"></a></li>
+                    <li><a href="newsltr.html"><img src="images/nws.png" alt="" width="30" height="30"></a></li>  
+                    <li><a href="cart.html"><img src="images/carto.png" alt="" width="30" height="30"></a></li>
+                    <li><a href="index.html"><img src="images/home.png" alt="" width="30" height="30"></a></li>
+                    <li><a href="login.html"><img src="images/profile.png" alt="" width="35" height="35"></a></li>
+                   
+                </ul>
+            </nav>
+                   <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+
+            <br>
+            
+
+           </div>
+        </div>
+    </div>
+
+    
+
+    <!-- CART ITEMS -->
+
+    <div class="small-container cart-page">
+
+        <h3 style="font-weight: 400; font-size: x-large;">Your Cart and Orders</h3>
+        <br><br>
+
+
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/product s-1.jpg">
+                        <div>
+                            <p style="color: black;">Grey Thar 5-th Lace Up Running Shoes</p>
+                            <div class="rating">
+                                <h5>&#9733; &#9733; &#9733; &#9733; &#9734;  <span style="color:rgb(101, 99, 99)">&#65086; 4.1(17)</span></h5>
+                            </div>
+                            <span>₹998 <strike>₹1,999</strike> (50% off)</span>
+                            
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+
+
+                </td>
+                <td><input type="number" min="1" value="1"></td> 
+                <td>₹998.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/fcf-1.jpg">
+                        <div>
+                            <p style="color: black;">Royal Black Regiment Gloss grad Formal Shoes for Women</p>
+                            <div class="rating">
+                                <h5>&#9733; &#9733; &#9733; &#9733; &#9734;  <span style="color:rgb(101, 99, 99)">&#65086; 4.1(17)</span></h5>
+                            </div>
+                            <span>₹1,920 <strike>₹2,690</strike> (29% off)</span>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+
+
+                </td>
+                <td><input type="number" min="1" value="1"></td> 
+                <td>₹ 1,920.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/mcsn-4.jpg">
+                        <div>
+                            <p style="color: black;">MindBlender Vulc Tan Black c40 Flex Sneakers</p>
+                            <div class="rating">
+                                <h5>&#9733; &#9733; &#9733; &#9733; &#9734;  <span style="color:rgb(101, 99, 99)">&#65086; 4.1(17)</span></h5>
+                            </div>
+                            <span>₹2,199  <strike>₹3,999</strike> (45% off)</span>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+
+
+                </td>
+            </td>
+                <td><input type="number" min="1" value="1"></td> 
+                <td>₹ 2,199.00</td>
+                
+            </tr>
+        </table>
+
+
+      <div class="total-price">
+
+        <table>
+            <tr>
+                <td>Subtotal</td>
+                <td> ₹5,117.00</td>
+            </tr>
+            <tr>
+                <td>Tax</td>
+                <td>₹ 230.00</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>₹ 5,140.00</td>
+            </tr>
+        </table>
+        <br>
+        <br>
+
+     </div>
+
+
+
+     <br>
+     <br>
+     <br>
+     
+     <div class="small-container">
+        <a href="payment.html" class="btn">Proceed to Pay &#8594;</a>
+    </div>
+    
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+    <!-- FOOTER -->
+
+    <div class="footer">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="footer-col-1">
+                    <h3>Download our App Here</h3>
+                    <p>Available for both Android and iOS.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+
+
+                <div class="footer-col-2">
+                    <br>
+                    <img src="images/logo.png">
+                    <p>Explore our collections &  <br>
+                        find your Solemate! 
+                       </p>
+                </div>
+
+
+                <div class="footer-col-3"><br>
+                    <h3>Our Links</h3>
+                    <ul>
+                        <a href=""><li>Refunds/Cancellation</li></a>
+                        <a href=""><li>Coupons</li></a>
+                        <a href=""><li>Return Policy</li></a>
+                        <a href=""><li>FAQ</li></a>
+                        <a href=""><li>Privacy Policy</li></a>
+                        <a href=""><li>Join Affiliates</li></a>
+                    </ul>
+                </div>
+
+
+                <div class="footer-col-4">
+                    <h3>Follow us </h3>   
+                    <ul>
+                        <a href="https://www.facebook.com/"><li>Facebook</li></a>
+                        <a href="https://twitter.com/"><li>Twitter</li></a>
+                        <a href="https://www.youtube.com/"><li>Youtube</li></a>
+                        <a href="https://www.instagram.com/"><li>Instagram</li></a>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    
+
+             <br>
+             <br>
+            </div>
+            <hr>
+            <br>
+            <br>
+            <p class="copyright">&#169;  Copyrights 2022 @ VaultX </p>
+            </div>
+            <br>
+            <br>
+    </div>
+
+
+
+
+ 
+    <script src="index.js"></script>
+</body>
+</html>

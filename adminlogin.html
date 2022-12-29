@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Login | VaultX</title>
+    <link rel="stylesheet" href="">
+
+<style>
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(235, 230, 229);
+}
+.container{
+    width: 100%;
+    display: flex;
+    max-width: 850px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+.login{
+    width: 500px;
+}
+form{
+    width: 250px;
+    margin: 60px auto;
+}
+h2{
+    margin: 20px;
+    color: rgb(108, 58, 58);
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+p{
+    text-align: center;
+    margin: 10px;
+}
+hr{
+    border-top: 2px solid rgb(103, 74, 69);
+}
+
+.pic img{
+    width: 450px;
+    height: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+form label{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px;
+}
+input{
+    width: 100%;
+    margin: 2px;
+    color: rgb(125, 70, 70);
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+button{
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 252px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: rgb(174, 104, 91);
+}
+button:hover{
+    background: rgb(142, 58, 43);
+}
+p{
+    margin: 20px;
+    font-size: medium;
+    font-weight: 800;
+    color: rgb(149, 52, 52);
+}
+a{
+    color: black;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+
+.h6{
+    text-align: center;
+    font-weight: 100;
+}
+    </style>
+
+
+
+</head>
+
+
+
+
+
+
+<body>
+    <div class="container">
+        <div class="login">
+            <form>
+                <h2>Admin Login</h2>
+                <hr>
+               <br><br><br>
+                <label>Email</label>
+                <input type="text" placeholder="abc@mail.com">
+                <label>Password</label>
+                <input type="password" placeholder="Enter your password">
+                <button>Confirm Credentials</button>
+                <a href="dashboard.html"><p>Proceed as Admin &#8594;</p></a> 
+                <a href="index.html"><p style="color: grey; font-weight: 100;">&#8592; Go to Website </p></a>
+            <closeform></closeform></form>
+        </div>
+        <div class="pic">
+            <img src="images/adminbg.jpg">
+        </div>
+    </div>
+
+</body>
+</html>
