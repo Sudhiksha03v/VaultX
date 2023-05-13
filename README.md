@@ -1,3 +1,3 @@
 # VaultX
 
-VaultX is an Ecommerce FrontEnd Website. It focusses on the Shoe selling category and have a modern and sleep design interface. 
+VaultX is an Ecommerce Website created for a Shoe Brand. It has a modern and sleek approach for its design interface. 
